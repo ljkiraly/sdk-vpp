@@ -17,13 +17,13 @@
 package xconnect
 
 import (
-	"github.com/networkservicemesh/sdk/pkg/networkservice/core/chain"
+	"github.com/ljkiraly/sdk/pkg/networkservice/core/chain"
 	"go.fd.io/govpp/api"
 
 	"github.com/networkservicemesh/api/pkg/api/networkservice"
 
-	"github.com/networkservicemesh/sdk-vpp/pkg/networkservice/xconnect/l2xconnect"
-	"github.com/networkservicemesh/sdk-vpp/pkg/networkservice/xconnect/l3xconnect"
+	"github.com/ljkiraly/sdk-vpp/pkg/networkservice/xconnect/l2xconnect"
+	"github.com/ljkiraly/sdk-vpp/pkg/networkservice/xconnect/l3xconnect"
 )
 
 // NewServer - creates new xconnect server chain element to that correctly handles payload.IP and payload.Ethernet

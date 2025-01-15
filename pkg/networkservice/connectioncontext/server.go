@@ -20,15 +20,15 @@
 package connectioncontext
 
 import (
-	"github.com/networkservicemesh/sdk/pkg/networkservice/core/chain"
+	"github.com/ljkiraly/sdk/pkg/networkservice/core/chain"
 	"go.fd.io/govpp/api"
 
 	"github.com/networkservicemesh/api/pkg/api/networkservice"
 
-	"github.com/networkservicemesh/sdk-vpp/pkg/networkservice/connectioncontext/mtu"
+	"github.com/ljkiraly/sdk-vpp/pkg/networkservice/connectioncontext/mtu"
 
-	"github.com/networkservicemesh/sdk-vpp/pkg/networkservice/connectioncontext/ipcontext/ipaddress"
-	"github.com/networkservicemesh/sdk-vpp/pkg/networkservice/connectioncontext/ipcontext/routes"
+	"github.com/ljkiraly/sdk-vpp/pkg/networkservice/connectioncontext/ipcontext/ipaddress"
+	"github.com/ljkiraly/sdk-vpp/pkg/networkservice/connectioncontext/ipcontext/routes"
 )
 
 // NewServer creates a NetworkServiceServer chain element to set the ip address on a vpp interface

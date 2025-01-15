@@ -30,16 +30,16 @@ import (
 	"github.com/networkservicemesh/api/pkg/api/networkservice"
 	"github.com/networkservicemesh/api/pkg/api/networkservice/mechanisms/kernel"
 
-	kernellink "github.com/networkservicemesh/sdk-kernel/pkg/kernel"
-	"github.com/networkservicemesh/sdk-kernel/pkg/kernel/tools/nshandle"
-	"github.com/networkservicemesh/sdk-kernel/pkg/kernel/tools/peer"
-	"github.com/networkservicemesh/sdk/pkg/tools/log"
+	kernellink "github.com/ljkiraly/sdk-kernel/pkg/kernel"
+	"github.com/ljkiraly/sdk-kernel/pkg/kernel/tools/nshandle"
+	"github.com/ljkiraly/sdk-kernel/pkg/kernel/tools/peer"
+	"github.com/ljkiraly/sdk/pkg/tools/log"
 
-	"github.com/networkservicemesh/sdk/pkg/tools/nanoid"
+	"github.com/ljkiraly/sdk/pkg/tools/nanoid"
 
-	"github.com/networkservicemesh/sdk-vpp/pkg/tools/ethtool"
-	"github.com/networkservicemesh/sdk-vpp/pkg/tools/link"
-	"github.com/networkservicemesh/sdk-vpp/pkg/tools/mechutils"
+	"github.com/ljkiraly/sdk-vpp/pkg/tools/ethtool"
+	"github.com/ljkiraly/sdk-vpp/pkg/tools/link"
+	"github.com/ljkiraly/sdk-vpp/pkg/tools/mechutils"
 )
 
 func create(ctx context.Context, conn *networkservice.Connection, isClient bool) error {

@@ -21,7 +21,7 @@ import (
 
 	"github.com/networkservicemesh/govpp/binapi/memif"
 
-	"github.com/networkservicemesh/sdk/pkg/networkservice/utils/metadata"
+	"github.com/ljkiraly/sdk/pkg/networkservice/utils/metadata"
 )
 
 type key struct{}

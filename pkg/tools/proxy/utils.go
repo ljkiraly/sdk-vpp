@@ -27,7 +27,7 @@ import (
 	"github.com/pkg/errors"
 	"github.com/vishvananda/netns"
 
-	"github.com/networkservicemesh/sdk-kernel/pkg/kernel/tools/nshandle"
+	"github.com/ljkiraly/sdk-kernel/pkg/kernel/tools/nshandle"
 )
 
 func listen(network, address string, nsHandle netns.NsHandle) (ln net.Listener, err error) {

@@ -29,9 +29,9 @@ import (
 	"github.com/networkservicemesh/govpp/binapi/interface_types"
 	"github.com/networkservicemesh/govpp/binapi/ip_types"
 
-	"github.com/networkservicemesh/sdk-vpp/pkg/tools/types"
+	"github.com/ljkiraly/sdk-vpp/pkg/tools/types"
 
-	"github.com/networkservicemesh/sdk/pkg/tools/log"
+	"github.com/ljkiraly/sdk/pkg/tools/log"
 )
 
 // endpoint contains the main fields for the VPP plugin

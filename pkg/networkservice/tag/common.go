@@ -22,11 +22,11 @@ import (
 
 	"github.com/networkservicemesh/api/pkg/api/networkservice"
 	interfaces "github.com/networkservicemesh/govpp/binapi/interface"
-	"github.com/networkservicemesh/sdk/pkg/tools/log"
+	"github.com/ljkiraly/sdk/pkg/tools/log"
 	"github.com/pkg/errors"
 	"go.fd.io/govpp/api"
 
-	"github.com/networkservicemesh/sdk-vpp/pkg/tools/ifindex"
+	"github.com/ljkiraly/sdk-vpp/pkg/tools/ifindex"
 )
 
 func create(ctx context.Context, conn *networkservice.Connection, vppConn api.Connection, isClient bool) error {

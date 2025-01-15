@@ -26,8 +26,8 @@ import (
 
 	"github.com/networkservicemesh/api/pkg/api/networkservice"
 
-	"github.com/networkservicemesh/sdk-vpp/pkg/networkservice/mechanisms/kernel/kerneltap"
-	"github.com/networkservicemesh/sdk-vpp/pkg/networkservice/mechanisms/kernel/kernelvethpair"
+	"github.com/ljkiraly/sdk-vpp/pkg/networkservice/mechanisms/kernel/kerneltap"
+	"github.com/ljkiraly/sdk-vpp/pkg/networkservice/mechanisms/kernel/kernelvethpair"
 )
 
 // NewClient - returns a new Client chain element implementing the kernel mechanism with vpp

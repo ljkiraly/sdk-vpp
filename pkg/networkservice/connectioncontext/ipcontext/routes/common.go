@@ -27,11 +27,11 @@ import (
 	"github.com/networkservicemesh/govpp/binapi/fib_types"
 	"github.com/networkservicemesh/govpp/binapi/interface_types"
 	"github.com/networkservicemesh/govpp/binapi/ip"
-	"github.com/networkservicemesh/sdk/pkg/tools/log"
+	"github.com/ljkiraly/sdk/pkg/tools/log"
 
-	"github.com/networkservicemesh/sdk-vpp/pkg/networkservice/vrf"
-	"github.com/networkservicemesh/sdk-vpp/pkg/tools/ifindex"
-	"github.com/networkservicemesh/sdk-vpp/pkg/tools/types"
+	"github.com/ljkiraly/sdk-vpp/pkg/networkservice/vrf"
+	"github.com/ljkiraly/sdk-vpp/pkg/tools/ifindex"
+	"github.com/ljkiraly/sdk-vpp/pkg/tools/types"
 )
 
 func addDel(ctx context.Context, conn *networkservice.Connection, vppConn api.Connection, isClient, isAdd bool) error {

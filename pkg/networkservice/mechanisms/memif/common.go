@@ -33,14 +33,14 @@ import (
 	memifMech "github.com/networkservicemesh/api/pkg/api/networkservice/mechanisms/memif"
 	"github.com/networkservicemesh/api/pkg/api/networkservice/payload"
 	"github.com/networkservicemesh/govpp/binapi/memif"
-	"github.com/networkservicemesh/sdk/pkg/tools/log"
+	"github.com/ljkiraly/sdk/pkg/tools/log"
 	"github.com/pkg/errors"
 	"github.com/vishvananda/netns"
 	"go.fd.io/govpp/api"
 	"golang.org/x/sys/unix"
 
-	"github.com/networkservicemesh/sdk-vpp/pkg/networkservice/up"
-	"github.com/networkservicemesh/sdk-vpp/pkg/tools/ifindex"
+	"github.com/ljkiraly/sdk-vpp/pkg/networkservice/up"
+	"github.com/ljkiraly/sdk-vpp/pkg/tools/ifindex"
 )
 
 // NetNSInfo contains shared info for server and client

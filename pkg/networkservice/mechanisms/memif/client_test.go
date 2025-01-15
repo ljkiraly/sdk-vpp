@@ -27,10 +27,10 @@ import (
 	"github.com/networkservicemesh/api/pkg/api/networkservice/mechanisms/kernel"
 	"github.com/stretchr/testify/require"
 
-	"github.com/networkservicemesh/sdk-vpp/pkg/networkservice/mechanisms/memif"
+	"github.com/ljkiraly/sdk-vpp/pkg/networkservice/mechanisms/memif"
 
-	"github.com/networkservicemesh/sdk/pkg/networkservice/core/chain"
-	"github.com/networkservicemesh/sdk/pkg/networkservice/utils/metadata"
+	"github.com/ljkiraly/sdk/pkg/networkservice/core/chain"
+	"github.com/ljkiraly/sdk/pkg/networkservice/utils/metadata"
 )
 
 func Test_MemifClient_ShouldAppendMechanismIfMemifMechanismMissed(t *testing.T) {

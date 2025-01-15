@@ -26,15 +26,15 @@ import (
 	"github.com/networkservicemesh/api/pkg/api/networkservice"
 	"github.com/networkservicemesh/api/pkg/api/networkservice/mechanisms/kernel"
 	"github.com/networkservicemesh/govpp/binapi/af_packet"
-	"github.com/networkservicemesh/sdk/pkg/tools/log"
+	"github.com/ljkiraly/sdk/pkg/tools/log"
 	"github.com/pkg/errors"
 	"go.fd.io/govpp/api"
 
-	"github.com/networkservicemesh/sdk-kernel/pkg/kernel/tools/peer"
+	"github.com/ljkiraly/sdk-kernel/pkg/kernel/tools/peer"
 
-	"github.com/networkservicemesh/sdk-vpp/pkg/networkservice/up"
-	"github.com/networkservicemesh/sdk-vpp/pkg/tools/ifindex"
-	"github.com/networkservicemesh/sdk-vpp/pkg/tools/types"
+	"github.com/ljkiraly/sdk-vpp/pkg/networkservice/up"
+	"github.com/ljkiraly/sdk-vpp/pkg/tools/ifindex"
+	"github.com/ljkiraly/sdk-vpp/pkg/tools/types"
 )
 
 func create(ctx context.Context, conn *networkservice.Connection, vppConn api.Connection, isClient bool) error {

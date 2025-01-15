@@ -26,7 +26,7 @@ import (
 	"github.com/pkg/errors"
 	"go.fd.io/govpp/api"
 
-	"github.com/networkservicemesh/sdk-vpp/pkg/tools/types"
+	"github.com/ljkiraly/sdk-vpp/pkg/tools/types"
 )
 
 func getMTU(ctx context.Context, vppConn api.Connection, tunnelIP net.IP) (uint32, error) {

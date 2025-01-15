@@ -24,7 +24,7 @@ import (
 	"github.com/networkservicemesh/api/pkg/api/networkservice"
 	"github.com/networkservicemesh/api/pkg/api/networkservice/mechanisms/common"
 
-	"github.com/networkservicemesh/sdk-vpp/pkg/networkservice/pinhole"
+	"github.com/ljkiraly/sdk-vpp/pkg/networkservice/pinhole"
 )
 
 type bpfObjects struct {

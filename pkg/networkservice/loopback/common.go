@@ -26,7 +26,7 @@ import (
 	"github.com/networkservicemesh/govpp/binapi/interface_types"
 	"go.fd.io/govpp/api"
 
-	"github.com/networkservicemesh/sdk/pkg/tools/log"
+	"github.com/ljkiraly/sdk/pkg/tools/log"
 )
 
 /* Create loopback interface and store it in metadata */

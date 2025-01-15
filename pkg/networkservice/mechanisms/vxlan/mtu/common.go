@@ -27,7 +27,7 @@ import (
 	interfaces "github.com/networkservicemesh/govpp/binapi/interface"
 	"github.com/networkservicemesh/govpp/binapi/ip"
 
-	"github.com/networkservicemesh/sdk-vpp/pkg/tools/types"
+	"github.com/ljkiraly/sdk-vpp/pkg/tools/types"
 )
 
 func getMTU(ctx context.Context, vppConn api.Connection, tunnelIP net.IP) (uint32, error) {

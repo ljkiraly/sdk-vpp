@@ -26,10 +26,10 @@ import (
 	"go.fd.io/govpp/api"
 
 	"github.com/networkservicemesh/api/pkg/api/networkservice"
-	"github.com/networkservicemesh/sdk/pkg/networkservice/core/chain"
+	"github.com/ljkiraly/sdk/pkg/networkservice/core/chain"
 
-	"github.com/networkservicemesh/sdk-vpp/pkg/networkservice/metrics/ifacename"
-	"github.com/networkservicemesh/sdk-vpp/pkg/networkservice/metrics/stats"
+	"github.com/ljkiraly/sdk-vpp/pkg/networkservice/metrics/ifacename"
+	"github.com/ljkiraly/sdk-vpp/pkg/networkservice/metrics/stats"
 )
 
 // NewClient provides a NetworkServiceClient chain elements that retrieves vpp interface metrics and names.

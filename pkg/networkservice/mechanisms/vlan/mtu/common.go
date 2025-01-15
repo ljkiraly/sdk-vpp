@@ -27,7 +27,7 @@ import (
 	"go.fd.io/govpp/api"
 
 	interfaces "github.com/networkservicemesh/govpp/binapi/interface"
-	"github.com/networkservicemesh/sdk/pkg/tools/log"
+	"github.com/ljkiraly/sdk/pkg/tools/log"
 )
 
 func getMTU(ctx context.Context, vppConn api.Connection, ifName string) (uint32, error) {

@@ -29,10 +29,10 @@ import (
 	"github.com/networkservicemesh/api/pkg/api/networkservice"
 	"github.com/networkservicemesh/api/pkg/api/registry"
 	"github.com/networkservicemesh/govpp/binapi/ip_types"
-	"github.com/networkservicemesh/sdk/pkg/networkservice/core/next"
-	registryclient "github.com/networkservicemesh/sdk/pkg/registry/chains/client"
-	registryrecvfd "github.com/networkservicemesh/sdk/pkg/registry/common/recvfd"
-	registrysendfd "github.com/networkservicemesh/sdk/pkg/registry/common/sendfd"
+	"github.com/ljkiraly/sdk/pkg/networkservice/core/next"
+	registryclient "github.com/ljkiraly/sdk/pkg/registry/chains/client"
+	registryrecvfd "github.com/ljkiraly/sdk/pkg/registry/common/recvfd"
+	registrysendfd "github.com/ljkiraly/sdk/pkg/registry/common/sendfd"
 )
 
 type vl3lbClient struct {

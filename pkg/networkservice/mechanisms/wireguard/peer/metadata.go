@@ -19,7 +19,7 @@ package peer
 import (
 	"context"
 
-	"github.com/networkservicemesh/sdk/pkg/networkservice/utils/metadata"
+	"github.com/ljkiraly/sdk/pkg/networkservice/utils/metadata"
 )
 
 // Store sets the bool indicating that the chain element should wait for the

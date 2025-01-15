@@ -26,10 +26,10 @@ import (
 	"google.golang.org/grpc"
 
 	"github.com/networkservicemesh/api/pkg/api/networkservice"
-	"github.com/networkservicemesh/sdk/pkg/networkservice/common/cleanup"
+	"github.com/ljkiraly/sdk/pkg/networkservice/common/cleanup"
 
-	"github.com/networkservicemesh/sdk-vpp/pkg/networkservice/mechanisms/vxlan"
-	"github.com/networkservicemesh/sdk-vpp/pkg/networkservice/metrics"
+	"github.com/ljkiraly/sdk-vpp/pkg/networkservice/mechanisms/vxlan"
+	"github.com/ljkiraly/sdk-vpp/pkg/networkservice/metrics"
 )
 
 type forwarderOptions struct {

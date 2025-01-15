@@ -19,7 +19,7 @@ package stats
 import (
 	"sync"
 
-	prom "github.com/networkservicemesh/sdk/pkg/tools/prometheus"
+	prom "github.com/ljkiraly/sdk/pkg/tools/prometheus"
 	"github.com/prometheus/client_golang/prometheus"
 )
 

@@ -28,10 +28,10 @@ import (
 	"github.com/pkg/errors"
 	"go.fd.io/govpp/api"
 
-	"github.com/networkservicemesh/sdk/pkg/tools/log"
+	"github.com/ljkiraly/sdk/pkg/tools/log"
 
-	"github.com/networkservicemesh/sdk-vpp/pkg/networkservice/mechanisms/vlan"
-	"github.com/networkservicemesh/sdk-vpp/pkg/tools/ifindex"
+	"github.com/ljkiraly/sdk-vpp/pkg/networkservice/mechanisms/vlan"
+	"github.com/ljkiraly/sdk-vpp/pkg/tools/ifindex"
 )
 
 func addDel(ctx context.Context, vppConn api.Connection, addDel bool) error {

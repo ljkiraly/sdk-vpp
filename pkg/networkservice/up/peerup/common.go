@@ -28,9 +28,9 @@ import (
 	"github.com/pkg/errors"
 	"go.fd.io/govpp/api"
 
-	"github.com/networkservicemesh/sdk/pkg/tools/log"
+	"github.com/ljkiraly/sdk/pkg/tools/log"
 
-	"github.com/networkservicemesh/sdk-vpp/pkg/networkservice/mechanisms/wireguard/peer"
+	"github.com/ljkiraly/sdk-vpp/pkg/networkservice/mechanisms/wireguard/peer"
 )
 
 func waitForPeerUp(ctx context.Context, vppConn api.Connection, pubKey string, isClient bool) error {

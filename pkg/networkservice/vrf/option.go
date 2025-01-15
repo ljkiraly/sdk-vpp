@@ -21,7 +21,7 @@ import (
 
 	"github.com/networkservicemesh/govpp/binapi/interface_types"
 
-	"github.com/networkservicemesh/sdk-vpp/pkg/tools/ifindex"
+	"github.com/ljkiraly/sdk-vpp/pkg/tools/ifindex"
 )
 
 type vrfInfo struct {

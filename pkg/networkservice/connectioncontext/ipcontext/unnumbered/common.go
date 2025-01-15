@@ -27,9 +27,9 @@ import (
 
 	interfaces "github.com/networkservicemesh/govpp/binapi/interface"
 
-	"github.com/networkservicemesh/sdk-vpp/pkg/tools/ifindex"
+	"github.com/ljkiraly/sdk-vpp/pkg/tools/ifindex"
 
-	"github.com/networkservicemesh/sdk/pkg/tools/log"
+	"github.com/ljkiraly/sdk/pkg/tools/log"
 )
 
 func addDel(ctx context.Context, vppConn api.Connection, isClient, isAdd bool, loadIfaceFn func(ctx context.Context, isClient bool) (value interface_types.InterfaceIndex, ok bool)) error {

@@ -28,7 +28,7 @@ import (
 	"github.com/networkservicemesh/govpp/binapi/interface_types"
 	"github.com/pkg/errors"
 
-	"github.com/networkservicemesh/sdk/pkg/tools/log"
+	"github.com/ljkiraly/sdk/pkg/tools/log"
 )
 
 func setRxMode(ctx context.Context, vppConn api.Connection, swIfIndex interface_types.InterfaceIndex) error {
